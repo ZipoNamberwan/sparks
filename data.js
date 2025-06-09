@@ -6,13 +6,13 @@ const websiteData = {
     2025: [
         {
             name: "Perencanaan Kinerja",
-            icon: "fas fa-briefcase",
+            icon: "fas fa-lightbulb",
             description: "Professional networks and career resources",
             url: null,
             subComponents: [
                 {
                     name: "Rencana Strategis",
-                    icon: "fas fa-users",
+                    icon: "fas fa-compass-drafting",
                     description: "Connect with professionals worldwide",
                     url: 'https://www.google.com/?hl=id',
                     links: [
@@ -23,7 +23,7 @@ const websiteData = {
                 },
                 {
                     name: "Perjanjian Kinerja",
-                    icon: "fas fa-folder-open",
+                    icon: "fas fa-file-signature",
                     description: null,
                     url: null,
                     links: [
@@ -32,7 +32,7 @@ const websiteData = {
                 },
                 {
                     name: "Indikator Kinerja Utama",
-                    icon: "fas fa-folder-open",
+                    icon: "fas fa-bullseye",
                     description: null,
                     url: null,
                     links: [
@@ -43,13 +43,13 @@ const websiteData = {
         },
         {
             name: "Pengukuran Kinerja",
-            icon: "fas fa-palette",
+            icon: "fas fa-chart-simple",
             // description: "Creative projects and artistic endeavors",
             url: null,
             subComponents: [
                 {
                     name: "FRA",
-                    icon: "fas fa-paint-brush",
+                    icon: "fas fa-clipboard-list",
                     // description: "Visual design and graphics",
                     url: null,
                     links: [
@@ -58,7 +58,7 @@ const websiteData = {
                 },
                 {
                     name: "Bukti Dukung Capaian Kinerja",
-                    icon: "fas fa-camera",
+                    icon: "fas fa-folder-open",
                     description: null,
                     url: null,
                     links: [
@@ -67,7 +67,7 @@ const websiteData = {
                 },
                 {
                     name: "Bukti Dukung Solusi",
-                    icon: "fas fa-camera",
+                    icon: "fas fa-lightbulb",
                     description: null,
                     url: null,
                     links: [
@@ -76,7 +76,7 @@ const websiteData = {
                 },
                 {
                     name: "Bukti Dukung Tindak Lanjut",
-                    icon: "fas fa-camera",
+                    icon: "fas fa-arrow-rotate-right",
                     description: null,
                     url: null,
                     links: [
@@ -85,7 +85,7 @@ const websiteData = {
                 },
                 {
                     name: "Monitoring Capaian Kinerja Triwulanan",
-                    icon: "fas fa-camera",
+                    icon: "fas fa-chart-line",
                     description: null,
                     url: null,
                     links: [
@@ -94,7 +94,7 @@ const websiteData = {
                 },
                 {
                     name: "SOP Pengumpulan Data Kinerja",
-                    icon: "fas fa-camera",
+                    icon: "fas fa-scroll",
                     description: null,
                     url: null,
                     links: [
@@ -103,7 +103,7 @@ const websiteData = {
                 },
                 {
                     name: "SK Tim Sakip",
-                    icon: "fas fa-camera",
+                    icon: "fas fa-people-group",
                     description: null,
                     url: null,
                     links: [
@@ -112,7 +112,7 @@ const websiteData = {
                 },
                 {
                     name: "SKP",
-                    icon: "fas fa-camera",
+                    icon: "fas fa-user-check",
                     description: null,
                     url: null,
                     links: [
@@ -123,13 +123,13 @@ const websiteData = {
         },
         {
             name: "Pelaporan Kinerja",
-            icon: "fas fa-graduation-cap",
+            icon: "fas fa-file-lines",
             // description: "Educational resources and courses",
             url: null,
             subComponents: [
                 {
                     name: "Laporan Kinerja",
-                    icon: "fas fa-book-open",
+                    icon: "fas fa-file-lines",
                     // description: "Expand your knowledge",
                     url: null,
                     links: [
@@ -138,7 +138,7 @@ const websiteData = {
                 },
                 {
                     name: "Reward and Punishment",
-                    icon: "fas fa-book-open",
+                    icon: "fas fa-scale-balanced",
                     // description: "Expand your knowledge",
                     url: null,
                     links: [
@@ -147,7 +147,7 @@ const websiteData = {
                 },
                 {
                     name: "Penghargaan",
-                    icon: "fas fa-book-open",
+                    icon: "fas fa-award",
                     // description: "Expand your knowledge",
                     url: null,
                     links: [
@@ -156,7 +156,7 @@ const websiteData = {
                 },
                 {
                     name: "Inovasi",
-                    icon: "fas fa-book-open",
+                    icon: "fas fa-lightbulb",
                     // description: "Expand your knowledge",
                     url: null,
                     links: [
@@ -167,13 +167,13 @@ const websiteData = {
         },
         {
             name: "Evaluasi Kinerja",
-            icon: "fas fa-heart",
+            icon: "fas fa-magnifying-glass-chart",
             // description: null,
             url: null,
             subComponents: [
                 {
                     name: "LHE AKIP 2024",
-                    icon: "fas fa-blog",
+                    icon: "fas fa-magnifying-glass-chart",
                     // description: "Personal thoughts and experiences",
                     url: null,
                     links: [
@@ -182,7 +182,7 @@ const websiteData = {
                 },
                 {
                     name: "Pelaksanaan Rekomendasi LHE AKIP 2024",
-                    icon: "fas fa-gamepad",
+                    icon: "fas fa-check-double",
                     // description: null,
                     url: null,
                     links: [
@@ -190,8 +190,8 @@ const websiteData = {
                     ]
                 },
                 {
-                    name: "Permindo AKIP 2025",
-                    icon: "fas fa-gamepad",
+                    name: "Permindok AKIP 2025",
+                    icon: "fas fa-folder-tree",
                     // description: null,
                     url: null,
                     links: [
@@ -394,7 +394,7 @@ const websiteData = {
                     ]
                 },
                 {
-                    name: "Permindo AKIP 2025",
+                    name: "Permindok AKIP 2025",
                     icon: "fas fa-gamepad",
                     // description: null,
                     url: null,
