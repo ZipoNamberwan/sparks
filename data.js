@@ -25,7 +25,7 @@ const websiteData = {
                     name: "Perjanjian Kinerja",
                     icon: "fas fa-file-signature",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -34,7 +34,7 @@ const websiteData = {
                     name: "Indikator Kinerja Utama",
                     icon: "fas fa-bullseye",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -51,7 +51,7 @@ const websiteData = {
                     name: "FRA",
                     icon: "fas fa-clipboard-list",
                     // description: "Visual design and graphics",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -60,7 +60,7 @@ const websiteData = {
                     name: "Bukti Dukung Capaian Kinerja",
                     icon: "fas fa-folder-open",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -69,7 +69,7 @@ const websiteData = {
                     name: "Bukti Dukung Solusi",
                     icon: "fas fa-lightbulb",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -78,7 +78,7 @@ const websiteData = {
                     name: "Bukti Dukung Tindak Lanjut",
                     icon: "fas fa-arrow-rotate-right",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -87,7 +87,7 @@ const websiteData = {
                     name: "Monitoring Capaian Kinerja Triwulanan",
                     icon: "fas fa-chart-line",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -96,7 +96,7 @@ const websiteData = {
                     name: "SOP Pengumpulan Data Kinerja",
                     icon: "fas fa-scroll",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -105,7 +105,7 @@ const websiteData = {
                     name: "SK Tim Sakip",
                     icon: "fas fa-people-group",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -114,7 +114,7 @@ const websiteData = {
                     name: "SKP",
                     icon: "fas fa-user-check",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -131,7 +131,7 @@ const websiteData = {
                     name: "Laporan Kinerja",
                     icon: "fas fa-file-lines",
                     // description: "Expand your knowledge",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         
                     ]
@@ -140,7 +140,7 @@ const websiteData = {
                     name: "Reward and Punishment",
                     icon: "fas fa-scale-balanced",
                     // description: "Expand your knowledge",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                        
                     ]
@@ -149,7 +149,7 @@ const websiteData = {
                     name: "Penghargaan",
                     icon: "fas fa-award",
                     // description: "Expand your knowledge",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         
                     ]
@@ -158,7 +158,7 @@ const websiteData = {
                     name: "Inovasi",
                     icon: "fas fa-lightbulb",
                     // description: "Expand your knowledge",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         
                     ]
@@ -175,7 +175,7 @@ const websiteData = {
                     name: "LHE AKIP 2024",
                     icon: "fas fa-magnifying-glass-chart",
                     // description: "Personal thoughts and experiences",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                        
                     ]
@@ -184,7 +184,7 @@ const websiteData = {
                     name: "Pelaksanaan Rekomendasi LHE AKIP 2024",
                     icon: "fas fa-check-double",
                     // description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         
                     ]
@@ -193,7 +193,7 @@ const websiteData = {
                     name: "Permindok AKIP 2025",
                     icon: "fas fa-folder-tree",
                     // description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                        
                     ]
@@ -212,7 +212,7 @@ const websiteData = {
                     name: "Rencana Strategis",
                     icon: "fas fa-users",
                     // description: "Connect with professionals worldwide",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         // { name: "LinkedIn", url: "https://linkedin.com" },
                         // { name: "Twitter", url: "https://twitter.com" },
@@ -223,7 +223,7 @@ const websiteData = {
                     name: "Perjanjian Kinerja",
                     icon: "fas fa-folder-open",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -232,7 +232,7 @@ const websiteData = {
                     name: "Indikator Kinerja Utama",
                     icon: "fas fa-folder-open",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -249,7 +249,7 @@ const websiteData = {
                     name: "FRA",
                     icon: "fas fa-paint-brush",
                     // description: "Visual design and graphics",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -258,7 +258,7 @@ const websiteData = {
                     name: "Bukti Dukung Capaian Kinerja",
                     icon: "fas fa-camera",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -267,7 +267,7 @@ const websiteData = {
                     name: "Bukti Dukung Solusi",
                     icon: "fas fa-camera",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -276,7 +276,7 @@ const websiteData = {
                     name: "Bukti Dukung Tindak Lanjut",
                     icon: "fas fa-camera",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -285,7 +285,7 @@ const websiteData = {
                     name: "Monitoring Capaian Kinerja Triwulanan",
                     icon: "fas fa-camera",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -294,7 +294,7 @@ const websiteData = {
                     name: "SOP Pengumpulan Data Kinerja",
                     icon: "fas fa-camera",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -303,7 +303,7 @@ const websiteData = {
                     name: "SK Tim Sakip",
                     icon: "fas fa-camera",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -312,7 +312,7 @@ const websiteData = {
                     name: "SKP",
                     icon: "fas fa-camera",
                     description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
 
                     ]
@@ -329,7 +329,7 @@ const websiteData = {
                     name: "Laporan Kinerja",
                     icon: "fas fa-book-open",
                     // description: "Expand your knowledge",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         { name: "Coursera", url: "https://coursera.org" },
                         { name: "Udemy", url: "https://udemy.com" }
@@ -339,7 +339,7 @@ const websiteData = {
                     name: "Reward and Punishment",
                     icon: "fas fa-book-open",
                     // description: "Expand your knowledge",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         { name: "Coursera", url: "https://coursera.org" },
                         { name: "Udemy", url: "https://udemy.com" }
@@ -349,7 +349,7 @@ const websiteData = {
                     name: "Penghargaan",
                     icon: "fas fa-book-open",
                     // description: "Expand your knowledge",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         { name: "Coursera", url: "https://coursera.org" },
                         { name: "Udemy", url: "https://udemy.com" }
@@ -359,7 +359,7 @@ const websiteData = {
                     name: "Inovasi",
                     icon: "fas fa-book-open",
                     // description: "Expand your knowledge",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         { name: "Coursera", url: "https://coursera.org" },
                         { name: "Udemy", url: "https://udemy.com" }
@@ -377,7 +377,7 @@ const websiteData = {
                     name: "LHE AKIP 2024",
                     icon: "fas fa-blog",
                     // description: "Personal thoughts and experiences",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         { name: "Medium", url: "https://medium.com" },
                         { name: "Personal Blog", url: "#" }
@@ -387,7 +387,7 @@ const websiteData = {
                     name: "Pelaksanaan Rekomendasi LHE AKIP 2024",
                     icon: "fas fa-gamepad",
                     // description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         { name: "Steam", url: "https://steam.com" },
                         { name: "Goodreads", url: "https://goodreads.com" }
@@ -397,7 +397,7 @@ const websiteData = {
                     name: "Permindok AKIP 2025",
                     icon: "fas fa-gamepad",
                     // description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         { name: "Steam", url: "https://steam.com" },
                         { name: "Goodreads", url: "https://goodreads.com" }
@@ -411,13 +411,13 @@ const websiteData = {
             name: "Professional",
             icon: "fas fa-briefcase",
             // description: "2023 professional highlights",
-            url: null,
+            url: 'https://www.google.com/?hl=id',
             subComponents: [
                 {
                     name: "Projects",
                     icon: "fas fa-project-diagram",
                     // description: "Key projects from 2023",
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         { name: "Project Alpha", url: "#" },
                         { name: "Project Beta", url: "#" }
@@ -431,13 +431,13 @@ const websiteData = {
             name: "Archives",
             icon: "fas fa-archive",
             // description: "2022 archived content",
-            url: null,
+            url: 'https://www.google.com/?hl=id',
             subComponents: [
                 {
                     name: "Old Projects",
                     icon: "fas fa-history",
                     // description: null,
-                    url: null,
+                    url: 'https://www.google.com/?hl=id',
                     links: [
                         { name: "Legacy Site", url: "#" }
                     ]
