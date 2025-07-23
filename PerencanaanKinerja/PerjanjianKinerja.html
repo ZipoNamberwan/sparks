@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>SPARKS - Sistem Pelaporan Kinerja</title>
+
+    <!-- Custom fonts for this template-->
+    <link
+      href="../vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styles for this template-->
+    <link href="../css/sb-admin-2.min.css" rel="stylesheet" />
+
+    <style>
+      .collapse-item.no-data {
+        white-space: normal; /* Biarkan teks turun ke bawah */
+        word-wrap: break-word; /* Paksa kata panjang turun ke baris berikutnya */
+        overflow-wrap: break-word; /* Kompatibel dengan browser modern */
+        padding: 8px 12px;
+        line-height: 1.4;
+        font-size: 14px;
+      }
+
+      .chart-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+
+      .chart-container {
+        background-color: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        padding: 16px;
+        height: 100%;
+      }
+
+      .chart-title {
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+
+      .chart-wrapper {
+        position: relative;
+        width: 100%;
+        height: 300px; /* atau 250px sesuai kebutuhan */
+      }
+    </style>
+  </head>
+
+  <body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <ul
+        class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled"
+        id="accordionSidebar"
+      >
+        <!-- Sidebar - Brand -->
+        <a
+          class="sidebar-brand d-flex align-items-center justify-content-center"
+          href="../index.html"
+        >
+          <div class="sidebar-brand-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="sidebar-brand-text mx-3">
+            <span class="logo-text">SPARKS</span>
+          </div>
+        </a>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0" />
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">
+            <i class="fas fa-fw fa-home"></i>
+            <span>Home</span></a
+          >
+        </li>
+        <li class="nav-item active">
+          <a
+            class="nav-link collapsed"
+            href="#"
+            data-toggle="collapse"
+            data-target="#collapse1"
+            aria-expanded="true"
+            aria-controls="collapse1"
+          >
+            <i class="fas fa-clipboard-list"></i>
+            <span>Perencanaan Kerja</span>
+          </a>
+          <div
+            id="collapse1"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionSidebar"
+          >
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a class="collapse-item" href="RencanaStrategis.html"
+                >Rencana Strategis</a
+              >
+              <a class="collapse-item" href="PerjanjianKinerja.html"
+                >Perjanjian Kinerja</a
+              >
+              <a class="collapse-item" href="IndikatorKinerjaUtama.html"
+                >Indikator Kinerja Utama</a
+              >
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link collapsed"
+            href="#"
+            data-toggle="collapse"
+            data-target="#collapse2"
+            aria-expanded="true"
+            aria-controls="collapse2"
+          >
+            <i class="fas fa-ruler"></i>
+            <span>Pengukuran Kerja</span>
+          </a>
+          <div
+            id="collapse2"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionSidebar"
+          >
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a class="collapse-item" href="PengukuranKinerja/SKTimSAKIP.html"
+                >SK Tim Sakip</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/BuktiDukungCapaianKinerja.html"
+                style="white-space: normal; word-break: break-word"
+                >Bukti Dukung Capaian Kinerja</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/BuktiDukungSolusi.html"
+                style="white-space: normal; word-break: break-word"
+                >Bukti Dukung Solusi</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/BuktiDukungTindakLanjut.html"
+                style="white-space: normal; word-break: break-word"
+                >Bukti Dukung Tindak Lanjut</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/RapatMonitoringCapaianKinerjaTriwulanan.html"
+                style="white-space: normal; word-break: break-word"
+                >Monitoring Capaian Kinerja Triwulanan</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/CascadingKinerjaPegawai.html"
+                style="white-space: normal; word-break: break-word"
+                >Cascading Kinerja Pegawai</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/SasaranKinerjaPegawai.html"
+                >Sasaran Kinerja Pegawai</a
+              >
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link collapsed"
+            href="#"
+            data-toggle="collapse"
+            data-target="#collapse3"
+            aria-expanded="true"
+            aria-controls="collapse3"
+          >
+            <i class="fas fa-file-alt"></i>
+            <span>Pelaporan Kerja</span>
+          </a>
+          <div
+            id="collapse3"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionSidebar"
+          >
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a
+                class="collapse-item"
+                href="PelaporanKinerja/LaporanKinerja.html"
+                >Laporan Kinerja</a
+              >
+              <a
+                class="collapse-item"
+                href="PelaporanKinerja/MekanismeRewardAndPunishment.html"
+                >Reward and Punishment</a
+              >
+              <a class="collapse-item" href="PelaporanKinerja/Penghargaan.html"
+                >Penghargaan</a
+              >
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link collapsed"
+            href="#"
+            data-toggle="collapse"
+            data-target="#collapse4"
+            aria-expanded="true"
+            aria-controls="collapse4"
+          >
+            <i class="fas fa-chart-bar"></i>
+            <span>Evaluasi Kerja</span>
+          </a>
+          <div
+            id="collapse4"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionSidebar"
+          >
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a
+                class="collapse-item"
+                href="EvaluasiKinerja/LaporanHasilEvaluasiAKIP.html"
+                >LHE AKIP</a
+              >
+              <a
+                class="collapse-item"
+                href="EvaluasiKinerja/PermindokAKIP.html"
+                style="white-space: normal; word-break: break-word"
+                >Permindok AKIP</a
+              >
+              <a
+                class="collapse-item"
+                href="EvaluasiKinerja/TindakLanjutLheAKIP.html"
+                >Tindak Lanjut LHE AKIP</a
+              >
+            </div>
+          </div>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block" />
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline">
+          <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        </div>
+      </ul>
+      <!-- End of Sidebar -->
+
+      <!-- Content Wrapper -->
+      <div id="content-wrapper" class="d-flex flex-column">
+        <!-- Main Content -->
+        <div id="content">
+          <!-- Topbar -->
+          <nav
+            class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow py-5 d-flex"
+          >
+            <!-- Sidebar Toggle (Topbar) -->
+            <button
+              id="sidebarToggleTop"
+              class="btn btn-link d-md-none rounded-circle mr-3"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Teks di kiri -->
+            <div class="d-flex flex-column">
+              <h4 class="text-dark font-weight-bold">
+                Sistem Pelaporan Kinerja
+              </h4>
+              <!-- <p>BPS Kota Surabaya</p> -->
+            </div>
+          </nav>
+
+          <!-- End of Topbar -->
+
+          <!-- Begin Page Content -->
+          <div class="container-fluid">
+            <div class="card mt-4">
+              <div class="card-body text-center">
+                <h2 class="font-weight-bold mb-4">Perjanjian Kinerja</h2>
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <a
+                          onclick="tampilkanPDF('../pdf/Reviu_Perjanjian_Kinerja_BPS_Kota_Surabaya_2020_1694693136.pdf')"
+                          style="cursor: pointer"
+                          ><i class="fas fa-file-pdf text-danger display-4"></i
+                          ><br />
+                          <h4>2020</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <a
+                          onclick="tampilkanPDF('../pdf/Perjanjian_Kinerja_BPS_Kota_Surabaya_2022_1694693200.pdf')"
+                          style="cursor: pointer"
+                          ><i class="fas fa-file-pdf text-danger display-4"></i
+                          ><br />
+                          <h4>2021</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <a
+                          onclick="tampilkanPDF('../pdf/Perjanjian_Kinerja_BPS_Kota_Surabaya_2022_1694693200.pdf')"
+                          style="cursor: pointer"
+                          ><i class="fas fa-file-pdf text-danger display-4"></i
+                          ><br />
+                          <h4>2022</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <a
+                          onclick="tampilkanPDF('../pdf/Reviu_Kedua_Perjanjian_Kinerja_BPS_Kota_Surabaya_2020_1704985925.pdf')"
+                          style="cursor: pointer"
+                          ><i class="fas fa-file-pdf text-danger display-4"></i
+                          ><br />
+                          <h4>2023</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <a
+                          onclick="tampilkanPDF('../pdf/PK_BPS_Surabaya_2024_1707518909.pdf')"
+                          style="cursor: pointer"
+                          ><i class="fas fa-file-pdf text-danger display-4"></i
+                          ><br />
+                          <h4>2024</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card shadow">
+                      <div class="card-body">
+                        <a
+                          onclick="tampilkanPDF('../pdf/PK2025_Rev_1745226013.pdf')"
+                          style="cursor: pointer"
+                          ><i class="fas fa-file-pdf text-danger display-4"></i
+                          ><br />
+                          <h4>2025</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div id="preview-container" style="margin-top: 20px">
+                <!-- Preview PDF akan muncul di sini -->
+              </div>
+            </div>
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright &copy; SPARKS</span>
+            </div>
+          </div>
+        </footer>
+        <!-- End of Footer -->
+      </div>
+      <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../js/demo/chart-area-demo.js"></script>
+    <script src="../js/demo/chart-pie-demo.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+      function tampilkanPDF(url) {
+        const container = document.getElementById("preview-container");
+        container.innerHTML = `
+      <iframe src="${url}" width="100%" height="600px" style="border: none;"></iframe>
+    `;
+      }
+    </script>
+  </body>
+</html>

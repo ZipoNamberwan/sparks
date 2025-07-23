@@ -68,10 +68,10 @@
     <div id="wrapper">
       <!-- Sidebar -->
       <ul
-        class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+        class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled"
         id="accordionSidebar"
       >
-        <!-- Sidebar Brand -->
+        <!-- Sidebar - Brand -->
         <a
           class="sidebar-brand d-flex align-items-center justify-content-center"
           href="index.html"
@@ -84,17 +84,16 @@
           </div>
         </a>
 
+        <!-- Divider -->
         <hr class="sidebar-divider my-0" />
 
-        <!-- Home -->
+        <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="../index.html">
             <i class="fas fa-fw fa-home"></i>
-            <span>Home</span>
-          </a>
+            <span>Home</span></a
+          >
         </li>
-
-        <!-- Perencanaan Kinerja -->
         <li class="nav-item">
           <a
             class="nav-link collapsed"
@@ -105,7 +104,7 @@
             aria-controls="collapse1"
           >
             <i class="fas fa-clipboard-list"></i>
-            <span>Perencanaan Kinerja</span>
+            <span>Perencanaan Kerja</span>
           </a>
           <div
             id="collapse1"
@@ -113,16 +112,25 @@
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
-            <div
-              class="bg-white py-2 collapse-inner rounded"
-              id="subPerencanaanKinerja"
-            >
-              <!-- Akan diisi dinamis -->
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a
+                class="collapse-item"
+                href="PerencanaanKinerja/RencanaStrategis.html"
+                >Rencana Strategis</a
+              >
+              <a
+                class="collapse-item"
+                href="PerencanaanKinerja/PerjanjianKinerja.html"
+                >Perjanjian Kinerja</a
+              >
+              <a
+                class="collapse-item"
+                href="PerencanaanKinerja/IndikatorKinerjaUtama.html"
+                >Indikator Kinerja Utama</a
+              >
             </div>
           </div>
         </li>
-
-        <!-- Pengukuran Kinerja -->
         <li class="nav-item">
           <a
             class="nav-link collapsed"
@@ -133,7 +141,7 @@
             aria-controls="collapse2"
           >
             <i class="fas fa-ruler"></i>
-            <span>Pengukuran Kinerja</span>
+            <span>Pengukuran Kerja</span>
           </a>
           <div
             id="collapse2"
@@ -141,16 +149,48 @@
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
-            <div
-              class="bg-white py-2 collapse-inner rounded"
-              id="subPengukuranKinerja"
-            >
-              <!-- Akan diisi dinamis -->
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a class="collapse-item" href="PengukuranKinerja/SKTimSAKIP.html"
+                >SK Tim Sakip</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/BuktiDukungCapaianKinerja.html"
+                style="white-space: normal; word-break: break-word"
+                >Bukti Dukung Capaian Kinerja</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/BuktiDukungSolusi.html"
+                style="white-space: normal; word-break: break-word"
+                >Bukti Dukung Solusi</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/BuktiDukungTindakLanjut.html"
+                style="white-space: normal; word-break: break-word"
+                >Bukti Dukung Tindak Lanjut</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/RapatMonitoringCapaianKinerjaTriwulanan.html"
+                style="white-space: normal; word-break: break-word"
+                >Monitoring Capaian Kinerja Triwulanan</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/CascadingKinerjaPegawai.html"
+                style="white-space: normal; word-break: break-word"
+                >Cascading Kinerja Pegawai</a
+              >
+              <a
+                class="collapse-item"
+                href="PengukuranKinerja/SasaranKinerjaPegawai.html"
+                >Sasaran Kinerja Pegawai</a
+              >
             </div>
           </div>
         </li>
-
-        <!-- Pelaporan Kinerja -->
         <li class="nav-item">
           <a
             class="nav-link collapsed"
@@ -161,7 +201,7 @@
             aria-controls="collapse3"
           >
             <i class="fas fa-file-alt"></i>
-            <span>Pelaporan Kinerja</span>
+            <span>Pelaporan Kerja</span>
           </a>
           <div
             id="collapse3"
@@ -169,16 +209,23 @@
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
-            <div
-              class="bg-white py-2 collapse-inner rounded"
-              id="subPelaporanKinerja"
-            >
-              <!-- Akan diisi dinamis -->
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a
+                class="collapse-item"
+                href="PelaporanKinerja/LaporanKinerja.html"
+                >Laporan Kinerja</a
+              >
+              <a
+                class="collapse-item"
+                href="PelaporanKinerja/MekanismeRewardAndPunishment.html"
+                >Reward and Punishment</a
+              >
+              <a class="collapse-item" href="PelaporanKinerja/Penghargaan.html"
+                >Penghargaan</a
+              >
             </div>
           </div>
         </li>
-
-        <!-- Evaluasi Kinerja -->
         <li class="nav-item">
           <a
             class="nav-link collapsed"
@@ -189,7 +236,7 @@
             aria-controls="collapse4"
           >
             <i class="fas fa-chart-bar"></i>
-            <span>Evaluasi Kinerja</span>
+            <span>Evaluasi Kerja</span>
           </a>
           <div
             id="collapse4"
@@ -197,17 +244,31 @@
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
-            <div
-              class="bg-white py-2 collapse-inner rounded"
-              id="subEvaluasiKinerja"
-            >
-              <!-- Akan diisi dinamis -->
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a
+                class="collapse-item"
+                href="EvaluasiKinerja/LaporanHasilEvaluasiAKIP.html"
+                >LHE AKIP</a
+              >
+              <a
+                class="collapse-item"
+                href="EvaluasiKinerja/PermindokAKIP.html"
+                style="white-space: normal; word-break: break-word"
+                >Permindok AKIP</a
+              >
+              <a
+                class="collapse-item"
+                href="EvaluasiKinerja/TindakLanjutLheAKIP.html"
+                >Tindak Lanjut LHE AKIP</a
+              >
             </div>
           </div>
         </li>
 
+        <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block" />
 
+        <!-- Sidebar Toggler (Sidebar) -->
         <div class="text-center d-none d-md-inline">
           <button class="rounded-circle border-0" id="sidebarToggle"></button>
         </div>
@@ -220,7 +281,7 @@
         <div id="content">
           <!-- Topbar -->
           <nav
-            class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow py-5 d-flex justify-content-between"
+            class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow py-5 d-flex"
           >
             <!-- Sidebar Toggle (Topbar) -->
             <button
@@ -232,14 +293,14 @@
 
             <!-- Teks di kiri -->
             <div class="d-flex flex-column">
-              <!-- <h4 class="text-dark font-weight-bold">
+              <h4 class="text-dark font-weight-bold">
                 Sistem Pelaporan Kinerja
               </h4>
-              <p>BPS Kota Surabaya</p> -->
+              <!-- <p>BPS Kota Surabaya</p> -->
             </div>
 
             <!-- Select di kanan -->
-            <div class="ms-auto">
+            <!-- <div class="ms-auto">
               <select
                 class="custom-select"
                 id="tahun"
@@ -257,7 +318,7 @@
                 <option value="2020-2024">2020-2024</option>
                 <option value="2020-2021">2020-2021</option>
               </select>
-            </div>
+            </div> -->
           </nav>
 
           <!-- End of Topbar -->
@@ -266,15 +327,7 @@
           <div class="container-fluid">
             <div class="card">
               <div class="card-body text-center">
-                <h2
-                  class="font-weight-bold mb-4"
-                  style="
-                    text-decoration: underline;
-                    text-decoration-color: blue;
-                  "
-                >
-                  Selamat Datang di SPARKS
-                </h2>
+                <h2 class="font-weight-bold mb-4">Selamat Datang di SPARKS</h2>
                 <p>
                   Sistem Pelaporan Kinerja BPS Kota Surabaya untuk mempermudah
                   kerja tim SAKIP demi terciptanya akuntabilitas instansi yang
