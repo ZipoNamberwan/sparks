@@ -1,3 +1,56 @@
+const data = [
+  {
+    indikator: "Indeks BerAKHLAK",
+    Tahun: "2025",
+    Nilai: "84,30",
+  },
+  {
+    indikator: "Indeks BerAKHLAK",
+    Tahun: "2024",
+    Nilai: "61,50",
+  },
+  {
+    indikator: "Nilai Sakip",
+    Tahun: "2025",
+    Nilai: "78,20",
+  },
+  {
+    indikator: "Nilai Sakip",
+    Tahun: "2024",
+    Nilai: "77,35",
+  },
+  {
+    indikator: "Nilai Sakip",
+    Tahun: "2023",
+    Nilai: "70,65",
+  },
+  {
+    indikator: "Nilai Sakip",
+    Tahun: "2022",
+    Nilai: "70,05",
+  },
+  {
+    indikator: "Nilai Sakip",
+    Tahun: "2021",
+    Nilai: "63,66",
+  },
+  {
+    indikator: "Nilai Sakip",
+    Tahun: "2020",
+    Nilai: "49,61",
+  },
+  {
+    indikator: "Nilai Desk Evaluation Zona Integritas",
+    Tahun: "2025",
+    Nilai: "95,41",
+  },
+  {
+    indikator: "Nilai Desk Evaluation Zona Integritas",
+    Tahun: "2024",
+    Nilai: "85,64",
+  },
+];
+
 const dataSubSidebar = [
   {
     PerencanaanKinerja: [
