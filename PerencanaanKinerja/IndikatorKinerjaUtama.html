@@ -305,47 +305,7 @@
             <div class="card mt-4">
               <div class="card-body text-center">
                 <h2 class="font-weight-bold mb-4">Indikator Kinerja Utama</h2>
-                <div class="row">
-                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          ><i
-                            class="fas fa-hand-peace text-warning display-4"
-                          ></i
-                          ><br />
-                          <h4>2025-2029 (Coming Soon)</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          onclick="tampilkanPDF('../pdf/Peraturan_Kepala_BPS_No_38_Tahun_2020_1646882801.pdf')"
-                          style="cursor: pointer"
-                          ><i class="fas fa-file-pdf text-danger display-4"></i
-                          ><br />
-                          <h4>2020-2021</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          onclick="tampilkanPDF('../pdf/Peraturan_Kepala_BPS_No_3_Tahun_2022_1680679321.pdf')"
-                          style="cursor: pointer"
-                          ><i class="fas fa-file-pdf text-danger display-4"></i
-                          ><br />
-                          <h4>2022-2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <div class="row" id="dynamic-cards-container"></div>
               </div>
             </div>
             <div class="card mt-4">
@@ -399,6 +359,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="../js/shared-data.js"></script>
+    <script src="../js/page-renderer.js"></script>
 
     <script>
       function tampilkanPDF(url) {

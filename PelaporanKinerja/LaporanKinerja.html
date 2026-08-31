@@ -303,73 +303,7 @@
             <div class="card mt-4">
               <div class="card-body text-center">
                 <h2 class="font-weight-bold mb-4">Laporan Kinerja</h2>
-                <div class="row">
-                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          onclick="tampilkanPDF('../pdf/LAKIN_BPS_Kota_Surabaya_2020_1717577170.pdf')"
-                          style="cursor: pointer"
-                          ><i class="fas fa-file-pdf text-danger display-4"></i
-                          ><br />
-                          <h4>2020</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          onclick="tampilkanPDF('../pdf/Laporan_Kinerja_BPS_Kota_Surabaya_2021_1675151111.pdf')"
-                          style="cursor: pointer"
-                          ><i class="fas fa-file-pdf text-danger display-4"></i
-                          ><br />
-                          <h4>2021</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          onclick="tampilkanPDF('../pdf/Laporan_Kinerja_BPS_Kota_Surabaya_Tahun_2022_1675144093.pdf')"
-                          style="cursor: pointer"
-                          ><i class="fas fa-file-pdf text-danger display-4"></i
-                          ><br />
-                          <h4>2022</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          onclick="tampilkanPDF('../pdf/LAKIN_BPS_Kota_Surabaya_2023_Rev_1714985464.pdf')"
-                          style="cursor: pointer"
-                          ><i class="fas fa-file-pdf text-danger display-4"></i
-                          ><br />
-                          <h4>2023</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          onclick="tampilkanPDF('../pdf/Revisi_2_LAKIN_2024_1740131600.pdf')"
-                          style="cursor: pointer"
-                          ><i class="fas fa-file-pdf text-danger display-4"></i
-                          ><br />
-                          <h4>2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <div class="row" id="dynamic-cards-container"></div>
               </div>
             </div>
             <div class="card mt-4">
@@ -423,6 +357,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="../js/shared-data.js"></script>
+    <script src="../js/page-renderer.js"></script>
 
     <script>
       function tampilkanPDF(url) {

@@ -112,7 +112,7 @@
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
-            <div class="bg-white py-2 collapse-inner rounded">
+            <div class="bg-white py-2 collapse-inner rounded" id="subPerencanaanKinerja">
               <a
                 class="collapse-item"
                 href="PerencanaanKinerja/RencanaStrategis.html"
@@ -149,7 +149,7 @@
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
-            <div class="bg-white py-2 collapse-inner rounded">
+            <div class="bg-white py-2 collapse-inner rounded" id="subPengukuranKinerja">
               <a class="collapse-item" href="PengukuranKinerja/SKTimSAKIP.html"
                 >SK Tim Sakip</a
               >
@@ -209,7 +209,7 @@
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
-            <div class="bg-white py-2 collapse-inner rounded">
+            <div class="bg-white py-2 collapse-inner rounded" id="subPelaporanKinerja">
               <a
                 class="collapse-item"
                 href="PelaporanKinerja/LaporanKinerja.html"
@@ -244,7 +244,7 @@
             aria-labelledby="headingTwo"
             data-parent="#accordionSidebar"
           >
-            <div class="bg-white py-2 collapse-inner rounded">
+            <div class="bg-white py-2 collapse-inner rounded" id="subEvaluasiKinerja">
               <a
                 class="collapse-item"
                 href="EvaluasiKinerja/LaporanHasilEvaluasiAKIP.html"
@@ -423,8 +423,18 @@
       const data = [
         {
           indikator: "Indeks BerAKHLAK",
+          Tahun: "2025",
+          Nilai: "84,30",
+        },
+        {
+          indikator: "Indeks BerAKHLAK",
           Tahun: "2024",
           Nilai: "61,50",
+        },
+        {
+          indikator: "Nilai Sakip",
+          Tahun: "2025",
+          Nilai: "78,20",
         },
         {
           indikator: "Nilai Sakip",
@@ -462,240 +472,9 @@
           Nilai: "85,64",
         },
       ];
-
-      const dataSubSidebar = [
-        {
-          PerencanaanKinerja: [
-            {
-              IndikatorKinerjaUtama: [
-                { Tahun: "2025-2029", Link: "Belum Tersedia" },
-                {
-                  Tahun: "2022-2024",
-                  Link: "https://ppid.bps.go.id/upload/doc/Peraturan_Kepala_BPS_No_3_Tahun_2022_1680679321.pdf",
-                },
-                {
-                  Tahun: "2020-2021",
-                  Link: "https://ppid.bps.go.id/upload/doc/Peraturan_Kepala_BPS_No_38_Tahun_2020_1646882801.pdf",
-                },
-              ],
-            },
-            {
-              RencanaStrategis: [
-                { Tahun: "2025-2029", Link: "Belum Tersedia" },
-                {
-                  Tahun: "2020-2024",
-                  Link: "https://ppid.bps.go.id/upload/doc/Reviu_Renstra_2020-2024_BPS_Kota_Surabaya_1677240306.pdf",
-                },
-              ],
-            },
-            {
-              PerjanjianKinerja: [
-                {
-                  Tahun: "2025",
-                  Link: "https://ppid.bps.go.id/upload/doc/PK2025_Rev_1745226013.pdf",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://ppid.bps.go.id/upload/doc/PK_BPS_Surabaya_2024_1707518909.pdf",
-                },
-                {
-                  Tahun: "2023",
-                  Link: "https://ppid.bps.go.id/upload/doc/Reviu_Kedua_Perjanjian_Kinerja_BPS_Kota_Surabaya_2020_1704985925.pdf",
-                },
-                {
-                  Tahun: "2022",
-                  Link: "https://ppid.bps.go.id/upload/doc/Perjanjian_Kinerja_BPS_Kota_Surabaya_2022_1694693200.pdf",
-                },
-                {
-                  Tahun: "2021",
-                  Link: "https://ppid.bps.go.id/upload/doc/Perjanjian_Kinerja_BPS_Kota_Surabaya_2022_1694693200.pdf",
-                },
-                {
-                  Tahun: "2020",
-                  Link: "https://ppid.bps.go.id/upload/doc/Reviu_Perjanjian_Kinerja_BPS_Kota_Surabaya_2020_1694693136.pdf",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          PengukuranKinerja: [
-            {
-              RapatMonitoringCapaianKinerjaTriwulanan: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/drive/folders/1gr1x2dAAh5e2QR-lYocv3D3ECr76Odzt?usp=sharing",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/1oORNOtL-2_ORo_n1uQHI8Sdr4V9zK1ag?usp=drive_link",
-                },
-              ],
-            },
-            {
-              BuktiDukungCapaianKinerja: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/drive/folders/1duQ0fL_KUbLRSQapVpm4buAhEIHTQPHw?usp=sharing",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/1O415yNtKKU7OUeDvkpm5wADGjdIMMDWw?usp=drive_link",
-                },
-              ],
-            },
-            {
-              BuktiDukungSolusi: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/drive/folders/1LoWLWesGE5oJueTceZk3cIqU5xt6kHWg?usp=drive_link",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/1csjk_3uREMhKA988QyiYPwLHUDGOYnMb?usp=drive_link",
-                },
-              ],
-            },
-            {
-              BuktiDukungTindakLanjut: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/drive/folders/1c5aEquX_BW-3pAUO97EurPgbymJan2JR?usp=drive_link",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/1m4VE4U2IXlsTqxN-cN2DrFykI8RJ7r_u?usp=drive_link",
-                },
-              ],
-            },
-            {
-              SKTimSAKIP: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/file/d/12pKTmvUfd5llglNTfAyBjqnsIMpyvZVO/view?usp=drive_link",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/file/d/1ntDZPnVgp4VGn8KAOMyuZL6JNAT1jSuq/view?usp=sharing",
-                },
-              ],
-            },
-            {
-              CascadingKinerjaPegawai: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/drive/folders/1rUekxKPMngGUCxjkhMBI36PqZZG3EqxI?usp=drive_link",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/1_v6zO6BkQ8EXUECYnwjHuoBrLWZ44JG-?usp=drive_link",
-                },
-              ],
-            },
-            {
-              SasaranKinerjaPegawai: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/drive/folders/1CtHXtBsQ4RYSmy7xoRffKxjiWbdpbeeq?usp=drive_link",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/1I_2GpksFhz7QIcOmhkfKV2WqBuaY5W5Z?usp=drive_link",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          PelaporanKinerja: [
-            {
-              LaporanKinerja: [
-                {
-                  Tahun: "2024",
-                  Link: "https://ppid.bps.go.id/upload/doc/Revisi_2_LAKIN_2024_1740131600.pdf",
-                },
-                {
-                  Tahun: "2023",
-                  Link: "https://ppid.bps.go.id/upload/doc/LAKIN_BPS_Kota_Surabaya_2023_Rev_1714985464.pdf",
-                },
-                {
-                  Tahun: "2022",
-                  Link: "https://ppid.bps.go.id/upload/doc/Laporan_Kinerja_BPS_Kota_Surabaya_Tahun_2022_1675144093.pdf",
-                },
-                {
-                  Tahun: "2021",
-                  Link: "https://ppid.bps.go.id/upload/doc/Laporan_Kinerja_BPS_Kota_Surabaya_2021_1675151111.pdf",
-                },
-                {
-                  Tahun: "2020",
-                  Link: "https://ppid.bps.go.id/upload/doc/LAKIN_BPS_Kota_Surabaya_2020_1717577170.pdf",
-                },
-              ],
-            },
-            {
-              MekanismeRewardAndPunishment: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/drive/folders/1NptcBcgeH49EAoWnmOeNYaWk_z5_QMx3?usp=drive_link",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/1WogSx_rfvsuBpm4YREgxRqNytDtw9W5V?usp=drive_link",
-                },
-              ],
-            },
-            {
-              Penghargaan: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/drive/folders/1JyzVQm_9H140Voq2gC_K8NNUWrhfzWbl?usp=drive_link",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/1ly3rG_IWYPS4ZXXcj1cDl-5y0yguMAbF?usp=drive_link",
-                },
-              ],
-            },
-            {
-              LaporanHasilEvaluasiAKIP: [
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/file/d/1XWyr1dCMx0R1aL80Dd6Xe_gOI0MTdQeg/view?usp=drive_link",
-                },
-                {
-                  Tahun: "2023",
-                  Link: "https://drive.google.com/file/d/1zpVugqy-Z1buloBw5LHrwgsOHd-I7Tj8/view?usp=drive_link",
-                },
-              ],
-            },
-            {
-              TindakLanjutLheAkip: [
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/1uk3wzzLSSif1S-DOESL694GAPm4Cqjdf?usp=drive_link",
-                },
-                {
-                  Tahun: "2023",
-                  Link: "https://drive.google.com/drive/folders/1etuoKbwd1vucvbwdHilteiWKEXgRmWGE?usp=drive_link",
-                },
-              ],
-            },
-            {
-              PermindokAKIP: [
-                {
-                  Tahun: "2025",
-                  Link: "https://drive.google.com/drive/folders/1b-w2V276PpgfR-Gw5rempf3Ydk18z1aG?usp=drive_link",
-                },
-                {
-                  Tahun: "2024",
-                  Link: "https://drive.google.com/drive/folders/13lMQz7ioAuFV6gMP_MyG3uj_9CY8ohQV?usp=drive_link",
-                },
-              ],
-            },
-          ],
-        },
-      ];
-
+    </script>
+    <script src="js/shared-data.js"></script>
+    <script>
       const sidebarMapping = {
         PerencanaanKinerja: "subPerencanaanKinerja",
         PengukuranKinerja: "subPengukuranKinerja",
@@ -729,7 +508,9 @@
 
       // Fungsi untuk mengecek apakah link adalah PDF
       function isPdfLink(link) {
-        return link.includes(".pdf") || link.includes("ppid.bps.go.id");
+        if (!link) return false;
+        const l = link.trim().toLowerCase();
+        return l.endsWith(".pdf") || l.includes(".pdf");
       }
 
       // Fungsi untuk update sidebar berdasarkan tahun
@@ -764,18 +545,20 @@
                   link.style.wordBreak = "break-word";
 
                   const itemDisplayName = formatName(itemName);
+                  const rawLink = matchingYear.Link ? matchingYear.Link.trim() : "";
+                  const isExternalUrl = rawLink.startsWith("http://") || rawLink.startsWith("https://");
 
-                  if (matchingYear.Link === "Belum Tersedia") {
+                  if (rawLink === "Belum Tersedia" || !rawLink) {
                     link.innerHTML = `<i class="fas fa-clock text-warning"></i> ${itemDisplayName} <span class="no-data">(Belum Tersedia)</span>`;
                     link.href = "#";
                     link.style.cursor = "default";
-                  } else if (isPdfLink(matchingYear.Link)) {
+                  } else if (isPdfLink(rawLink)) {
                     link.innerHTML = `<i class="fas fa-file-pdf text-danger"></i> ${itemDisplayName}`;
-                    link.href = matchingYear.Link;
+                    link.href = isExternalUrl ? rawLink : `pdf/${rawLink}`;
                     link.target = "_blank";
                   } else {
                     link.innerHTML = `<i class="fab fa-google-drive text-success"></i> ${itemDisplayName}`;
-                    link.href = matchingYear.Link;
+                    link.href = rawLink;
                     link.target = "_blank";
                   }
 

@@ -305,40 +305,7 @@
             <div class="card mt-4">
               <div class="card-body text-center">
                 <h2 class="font-weight-bold mb-4">Sasaran Kinerja Pegawai</h2>
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          target="_blank"
-                          href="https://drive.google.com/drive/folders/1I_2GpksFhz7QIcOmhkfKV2WqBuaY5W5Z?usp=drive_link"
-                          style="cursor: pointer"
-                          ><i
-                            class="fab fa-google-drive text-success display-4"
-                          ></i
-                          ><br />
-                          <h4>2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          target="_blank"
-                          href="https://drive.google.com/drive/folders/1CtHXtBsQ4RYSmy7xoRffKxjiWbdpbeeq?usp=drive_link"
-                          style="cursor: pointer"
-                          ><i
-                            class="fab fa-google-drive text-success display-4"
-                          ></i
-                          ><br />
-                          <h4>2025</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <div class="row" id="dynamic-cards-container"></div>
               </div>
             </div>
             <div class="card mt-4">
@@ -392,6 +359,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="../js/shared-data.js"></script>
+    <script src="../js/page-renderer.js"></script>
 
     <script>
       function tampilkanPDF(url) {

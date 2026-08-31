@@ -305,34 +305,7 @@
             <div class="card mt-4">
               <div class="card-body text-center">
                 <h2 class="font-weight-bold mb-4">Rencana Strategis</h2>
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          ><i
-                            class="fas fa-hand-peace text-warning display-4"
-                          ></i
-                          ><br />
-                          <h4>2025-2029 (Coming Soon)</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                    <div class="card shadow">
-                      <div class="card-body">
-                        <a
-                          onclick="tampilkanPDF('../pdf/Reviu_Renstra_2020-2024_BPS_Kota_Surabaya_1677240306.pdf')"
-                          style="cursor: pointer"
-                          ><i class="fas fa-file-pdf text-danger display-4"></i
-                          ><br />
-                          <h4>2020-2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <div class="row" id="dynamic-cards-container"></div>
               </div>
             </div>
             <div class="card mt-4">
@@ -386,6 +359,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="../js/shared-data.js"></script>
+    <script src="../js/page-renderer.js"></script>
 
     <script>
       function tampilkanPDF(url) {
