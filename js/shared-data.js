@@ -179,7 +179,7 @@ const dataSubSidebar = [
         SKTimSAKIP: [
           {
             Tahun: "2026",
-            Link: "https://drive.google.com/file/d/1-OPfyIod32l3Hb58OV4Y8LhNNRMz5xNZ/view?usp=drive_link",
+            Link: "https://drive.google.com/file/d/1t89IIjH_U5KJpRR4slIIwSKRsT1gmIi_/view?usp=sharing",
           },
           {
             Tahun: "2025",
